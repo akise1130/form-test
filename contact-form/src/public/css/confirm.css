@@ -1,0 +1,75 @@
+.header {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__log {
+    color: #8b7355;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+}
+
+.contact-form__heading h2 {
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+    color: #8b7355;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 20%;
+    background-color: #c0ad97;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.form__button-area {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.form__button-submit,
+.form__button-fix {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    coler:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__button-submit:hover,
+.form__button-fix:hover {
+    background-color: #333;
+}

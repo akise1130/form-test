@@ -1,0 +1,43 @@
+.thanks {
+    position: relative;
+    text-align: center;
+    padding: 150px 20px;
+    font-family: sans-serif;
+}
+
+.thanks__background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.03);
+    white-space: nowrap;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.thanks__content {
+    position: relative;
+    z-index: 2;
+}
+
+.thanks__message {
+    font-size: 18px;
+    color: #6d5b4b;
+    margin-bottom: 30px;
+}
+
+.thanks__home-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #8c7b6a;
+    color: #fff;
+    text-decoration: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.thanks__home-button:hover {
+    background-color: #6d5b4b;
+}
